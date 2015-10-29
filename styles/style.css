@@ -1,0 +1,33 @@
+nav ul{
+  position:fixed;
+  z-index:1000;
+  width:100%;
+  color:#000;
+  list-style:none;
+  -webkit-transition:.5s;
+  -moz-transition:.5s;
+  transition:.5s;
+}
+nav ul.active{
+  background:#333;
+  color:#fff;
+}
+ul li{
+  display:inline-block;
+  padding: 20px 30px;
+}
+
+nav {
+  display: inline-block;
+}
+section{
+  padding:100px 0px 0px;
+  line-height:140%;
+}
+p{
+  margin-bottom:20px;
+}
+
+ul {
+      -webkit-margin-before: 0;
+}
